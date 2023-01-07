@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "npx patch-package"
   },
   "dependencies": {
     "expo": "~47.0.12",
@@ -14,7 +15,8 @@
     "nostr-tools": "^1.1.1",
     "react": "18.1.0",
     "react-native": "0.70.5",
-    "text-encoding-polyfill": "^0.6.7"
+    "text-encoding-polyfill": "^0.6.7",
+    "expo-random": "~13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
