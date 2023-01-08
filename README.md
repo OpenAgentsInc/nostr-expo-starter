@@ -11,3 +11,5 @@ Minimum viable Expo app that works with Nostr
 - Add `"postinstall": "npx patch-package"` to package.json
 - `npm i` to apply patch
 - `npm run start`
+
+Then you can use [nostr-tools](https://github.com/nbd-wtf/nostr-tools). See [plebchat](https://github.com/ArcadeLabsInc/plebchat) for demo.
